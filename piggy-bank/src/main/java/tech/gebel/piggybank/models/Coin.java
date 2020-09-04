@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "coins")
 public class Coin {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)}
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long coinid;
     private String name;
     private String nameplural;
