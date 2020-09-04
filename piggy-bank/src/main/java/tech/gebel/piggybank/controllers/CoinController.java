@@ -10,6 +10,7 @@ import tech.gebel.piggybank.repositories.CoinRepository;
 
 @RestController
 public class CoinController {
+    @SuppressWarnings({"SpringJavaInjectionPointsAutowiringInspection", "SpringJavaAutowiredFieldsWarningInspection"})
     @Autowired
     private CoinRepository coinRepository;
 
