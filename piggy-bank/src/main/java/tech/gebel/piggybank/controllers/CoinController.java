@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import tech.gebel.piggybank.models.Coin;
 import tech.gebel.piggybank.repositories.CoinRepository;
 
-import java.util.ArrayList;
-
 @RestController
 public class CoinController {
     @Autowired
