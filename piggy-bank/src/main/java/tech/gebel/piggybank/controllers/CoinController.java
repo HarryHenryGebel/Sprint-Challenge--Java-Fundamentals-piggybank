@@ -21,7 +21,7 @@ public class CoinController {
 
         double totalValue = 0.00;
         for (Coin coin : coins) {
-            totalValue += coin.getValue();
+            totalValue += coin.getValue() * coin.getQuantity();
             if (coin.getQuantity() == 1)
                 System.out.println(coin.getQuantity() + " " + coin.getName());
             else
